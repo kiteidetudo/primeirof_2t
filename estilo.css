@@ -5,28 +5,49 @@ h1 {
   text-align: center;
 }
 .caixa1 {
-  position:absolute;
-  background: pink;
-  width: 200px;
-  height: 200px;
-  color:  black;
-  left: 40%
+   position: absolute;
+   background: blue;
+   width: 200px;
+   height: 200px;
+   color: #FFFFFF;
+   right: 500px;
+   top: 200px;
 }
 .caixa2 {
-  position: absolute;
-  background: pink;
-  width: 200px;
-  heigth: 700px;
-  color: black;
-  left: 55%;
+   position: absolute;
+   background: yellow;
+   width: 200px;
+   height: 200px;
+   color: #000000;
+   right: 705px;
+   top: 200px;
 }
-.menuprincipal { 
+
+.menuPrincipal {
   position: absolute;
   width: 100%;
-  height: 100px;
-  background: rgb(233, 250, 0);
+  height: 45px;
+  background: rgb(32, 85, 69);
   top: 0;
   left: 0;
-
-
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+li a:hover {
+  color: yellow;
+  background: violet;
 }
